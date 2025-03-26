@@ -1,0 +1,35 @@
+cat > .gitignore << 'EOL'
+# Dependențe
+node_modules/
+.pnp
+.pnp.js
+
+# Fișiere de mediu
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Date de utilizator
+uploads/
+user_sessions/
+.wwebjs_auth/
+
+# Fișiere de build
+dist/
+build/
+
+# Fișiere de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fișiere sistem
+.DS_Store
+Thumbs.db
+
+# Fișiere temporare
+*.swp
+*.swo
+EOL
